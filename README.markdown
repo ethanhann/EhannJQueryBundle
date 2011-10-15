@@ -3,9 +3,8 @@ Provides a JQuery integration for your Symfony2 Project.
 Documentation
 -------------
 
-The documentation is available in the bundle:
-
-https://github.com/egeloen/IvoryJQueryBundle/blob/master/Resources/doc/index.rst
+   1. [Installation](http://github.com/egeloen/IvoryJQueryBundle/blob/master/Resources/doc/installation.md)
+   2. [Usage](http://github.com/egeloen/IvoryJQueryBundle/blob/master/Resources/doc/usage.md)
 
 License
 -------
