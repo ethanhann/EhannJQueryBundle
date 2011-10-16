@@ -54,7 +54,7 @@ public function registerBundles()
 Run the symfony command
 
 ``` bash
-$ php /app/console assets:install web
+$ php app/console assets:install web
 ```
 
 Next : [Usage](http://github.com/egeloen/IvoryJQueryBundle/blob/master/Resources/doc/usage.md)
