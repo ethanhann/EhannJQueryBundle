@@ -33,17 +33,17 @@ To add the ``black-tie`` theme, you just need to do that:
 ### Not minimified
 
 ```
-{% stylesheets "@IvoryJQueryBundle/Resources/public/themes/black-tie/*" %}
+{% stylesheets "@IvoryJQueryBundle/Resources/public/themes/black-tie/*.css" %}
     <link rel="stylesheet" type="text/css" media="screen" href="{{ asset_url }}" />
 {% endstylesheets %}
 ```
 
 ### Minimified
 
-For understanding whhat minimify is, please read this article first : http://symfony.com/doc/current/cookbook/assetic/yuicompressor.html
+For understanding what minimify is, please read this article first : http://symfony.com/doc/current/cookbook/assetic/yuicompressor.html
 
 ```
-{% stylesheets "@IvoryJQueryBundle/Resources/public/themes/black-tie/*" filter="yui_css" %}
+{% stylesheets "@IvoryJQueryBundle/Resources/public/themes/black-tie/*.css" filter="yui_css" %}
     <link rel="stylesheet" type="text/css" media="screen" href="{{ asset_url }}" />
 {% endstylesheets %}
 ```
