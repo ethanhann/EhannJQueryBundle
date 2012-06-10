@@ -1,40 +1,40 @@
 # Installation
 
-## Add IvoryJQueryBundle to your vendor/bundles/ directory
+## Add EhannJQueryBundle to your vendor/bundles/ directory
 
 ### Using the vendors script
 
 Add the following lines in your ``deps`` file
 
 ```
-[IvoryJQueryBundle]
-    git=http://github.com/egeloen/IvoryJQueryBundle.git
-    target=/bundles/Ivory/JQueryBundle
+[EhannJQueryBundle]
+    git=http://github.com/ethanhann/EhannJQueryBundle.git
+    target=/bundles/Ehann/JQueryBundle
 ```
 
 Run the vendors script
 
-    ./bin/vendors update
+    ./bin/vendors install
 
 ### Using submodules
 
 ``` bash
-$ git submodule add http://github.com/egeloen/IvoryJQueryBundle.git vendor/bundles/Ivory/JQueryBundle
+$ git submodule add http://github.com/ethanhann/EhannJQueryBundle.git vendor/bundles/Ehann/JQueryBundle
 ```
 
-## Add the Ivory namespace to your autoloader
+## Add the Ehann namespace to your autoloader
 
 ``` php
 <?php
 // app/autoload.php
 
 $loader->registerNamespaces(array(
-    'Ivory' => __DIR__.'/../vendor/bundles',
+    'Ehann' => __DIR__.'/../vendor/bundles',
     // ...
 );
 ```
 
-## Add the IvoryJQueryBundle to your application kernel
+## Add the EhannJQueryBundle to your application kernel
 
 ``` php
 <?php
@@ -43,7 +43,7 @@ $loader->registerNamespaces(array(
 public function registerBundles()
 {
     return array(
-        new Ivory\JQueryBundle\IvoryJQueryBundle(),
+        new Ehann\JQueryBundle\EhannJQueryBundle(),
         // ...
     );
 }
@@ -57,4 +57,4 @@ Run the symfony command
 $ php app/console assets:install web
 ```
 
-Next : [Usage](http://github.com/egeloen/IvoryJQueryBundle/blob/master/Resources/doc/usage.md)
+Next : [Usage](http://github.com/ethanhann/EhannJQueryBundle/blob/master/Resources/doc/usage.md)
