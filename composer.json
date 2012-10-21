@@ -2,7 +2,7 @@
     "name":"ehann/jquery-bundle",
     "description":"Makes available jQuery, jQuery UI, and some jQuery plugins in Symfony2",
     "keywords":["jQuery", "Symfony2", "bundle"],
-    "homepage":"http://ccit.college.columbia.edu/",
+    "homepage":"https://github.com/ethanhann/EhannJQueryBundle",
     "authors": [
         {
             "name": "Ethan Hann",
