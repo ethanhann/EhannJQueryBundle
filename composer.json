@@ -1,0 +1,23 @@
+{
+    "name":"ehann/jquery-bundle",
+    "description":"Makes available jQuery, jQuery UI, and some jQuery plugins in Symfony2",
+    "keywords":["jQuery", "Symfony2", "bundle"],
+    "homepage":"http://ccit.college.columbia.edu/",
+    "authors": [
+        {
+            "name": "Ethan Hann",
+            "email": "ethanhann@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": ">=2.1"
+    },
+    "autoload": {
+        "psr-0": { "Ehann\\JQueryBundle": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "Ehann/JQueryBundle"
+}
